@@ -24,4 +24,5 @@
   <content>Role.ВКМ_ОбслуживаниеКлиентов</content>
   <content>Role.ВКМ_ВыставлениеАктов</content>
   <content>Role.ВКМ_НастройкаОбслуживанияКлиентов</content>
+  <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
 </mdclass:Subsystem>

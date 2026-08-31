@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dbc0c60-49d1-4d53-8ff6-404a3e714428">
+  <producedTypes>
+    <objectType typeId="0d1e20fc-4228-40c4-9220-7f5dbc013127" valueTypeId="0579ea8c-7c3a-4036-9d3b-cbb3e9902bc4"/>
+    <managerType typeId="34bb548f-a218-49ae-aa78-3aa669fb1bfb" valueTypeId="16d789b6-001d-4051-8faf-6b2d3294d4d7"/>
+  </producedTypes>
+  <name>ВКМ_КалендарьСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь специалистов</value>
+  </synonym>
+  <comment>Календарь загрузки специалистов на базе планировщика. Позволяет планировать обслуживание клиентов прямо из календаря.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_КалендарьСпециалистов.Form.Форма</defaultForm>
+  <forms uuid="a786cd06-6bc5-4b97-bf6c-ea4fa94a0318">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
