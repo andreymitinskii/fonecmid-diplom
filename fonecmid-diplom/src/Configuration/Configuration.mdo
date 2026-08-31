@@ -650,6 +650,7 @@
   <commonModules>CommonModule.АнализЖурналаРегистрацииСлужебный</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсами</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВариантыОтчетов</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
@@ -941,6 +942,7 @@
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграмБоту</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗапускДополнительныхОбработок</scheduledJobs>
@@ -1050,6 +1052,10 @@
   <commandGroups>CommandGroup.Печать</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
+  <constants>Constant.ВКМ_ИдентификаторГруппыТелеграм</constants>
+  <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
+  <constants>Constant.ВКМ_ТокенТелеграмБота</constants>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
@@ -1173,6 +1179,7 @@
   <commonForms>CommonForm.ФормаВыбораШрифта</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
+  <catalogs>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>

@@ -37,6 +37,8 @@
   <posting>Allow</posting>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="fc4866a2-6f91-4929-b782-e5bb4c586df6">
     <name>Клиент</name>
     <synonym>
@@ -149,10 +151,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>0</length>
-        <allowedLength>Variable</allowedLength>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -169,10 +168,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>0</length>
-        <allowedLength>Variable</allowedLength>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -224,10 +220,7 @@
       </synonym>
       <type>
         <types>String</types>
-        <stringQualifiers>
-          <length>0</length>
-          <allowedLength>Variable</allowedLength>
-        </stringQualifiers>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
