@@ -16,6 +16,7 @@
   <comment>Результаты расчета НДФЛ.</comment>
   <dataLockControlMode>Managed</dataLockControlMode>
   <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <resources uuid="14647f7c-7c7c-411b-9ea3-c06a8679f240">
     <name>Результат</name>

@@ -16,6 +16,8 @@
   <comment>Результаты расчета оклада и отпуска.</comment>
   <dataLockControlMode>Managed</dataLockControlMode>
   <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <schedule>InformationRegister.ВКМ_ГрафикРаботы</schedule>
   <scheduleValue>InformationRegister.ВКМ_ГрафикРаботы.Resource.Значение</scheduleValue>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fc02c29-6287-4f7f-a576-2fec526baf52">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f380eb19-dc8c-43a2-a931-9d68a5ba9ad4">
   <producedTypes>
-    <objectType typeId="ef87af66-992c-4d97-b5f0-86777cf71338" valueTypeId="d9831920-3089-4da1-8bf9-d463831c0c54"/>
-    <managerType typeId="0ffdba41-3a1e-4c3a-9f9e-4ac364b5083b" valueTypeId="599c5d72-1912-4ff9-8053-6509488d1b11"/>
+    <objectType typeId="89418b94-545e-40aa-9f88-6cde93a20665" valueTypeId="2fd51863-86e8-4079-9ef3-758ee4d8e81c"/>
+    <managerType typeId="30d4c751-8398-4943-a24b-6b144da9ea56" valueTypeId="9dc886e3-ade5-4008-9f0c-97dbcbbfe732"/>
   </producedTypes>
   <name>ВКМ_АнализВыставленныхАктов</name>
   <synonym>
@@ -12,7 +12,7 @@
   <comment>Суммы, которые должны быть выставлены клиентам по данным обслуживания, и фактически выставленные суммы по номенклатуре работ специалиста.</comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="78c34d76-9fa8-478f-954f-c367589dc87d">
+  <templates uuid="32216e93-0e8a-4953-b2d2-55ad2cd58ec3">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
