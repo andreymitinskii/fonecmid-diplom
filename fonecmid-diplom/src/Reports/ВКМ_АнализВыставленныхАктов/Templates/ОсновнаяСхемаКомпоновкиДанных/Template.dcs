@@ -7,6 +7,19 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Клиент</dataPath>
 			<field>Клиент</field>
 			<title xsi:type="v8:LocalStringType">
@@ -64,6 +77,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
+	ЕСТЬNULL(КВыставлению.Период, Выставлено.Период) КАК Период,
 	ЕСТЬNULL(КВыставлению.Клиент, Выставлено.Клиент) КАК Клиент,
 	ЕСТЬNULL(КВыставлению.Договор, Выставлено.Договор) КАК Договор,
 	ЕСТЬNULL(КВыставлению.КоличествоЧасовОборот, 0) КАК ЧасовКВыставлению,
@@ -73,15 +87,16 @@
 	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(
 			&amp;НачалоПериода,
 			&amp;КонецПериода,
-			Регистратор,
+			Месяц,
 			) КАК КВыставлению
 		ПОЛНОЕ СОЕДИНЕНИЕ РегистрНакопления.ВКМ_ВыставленныеРаботы.Обороты(
 			&amp;НачалоПериода,
 			&amp;КонецПериода,
-			Регистратор,
+			Месяц,
 			) КАК Выставлено
 		ПО КВыставлению.Клиент = Выставлено.Клиент
-			И КВыставлению.Договор = Выставлено.Договор</query>
+			И КВыставлению.Договор = Выставлено.Договор
+			И КВыставлению.Период = Выставлено.Период</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ЧасовКВыставлению</dataPath>
@@ -204,6 +219,23 @@
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Период</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
 			</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>
