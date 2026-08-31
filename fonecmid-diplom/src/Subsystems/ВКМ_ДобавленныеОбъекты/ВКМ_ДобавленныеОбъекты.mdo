@@ -40,4 +40,5 @@
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>CommonModule.ВКМ_РасчетЗарплаты</content>
 </mdclass:Subsystem>

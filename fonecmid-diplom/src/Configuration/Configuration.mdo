@@ -653,6 +653,7 @@
   <commonModules>CommonModule.АнализЖурналаРегистрацииСлужебный</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсами</commonModules>
   <commonModules>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ВКМ_РасчетЗарплаты</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВариантыОтчетов</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
