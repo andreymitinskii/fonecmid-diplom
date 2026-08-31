@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5048c0d-8869-48af-a0f3-327d1f0e2a9a">
+  <producedTypes>
+    <objectType typeId="dcbce757-62f5-4283-9ebb-73df09be06a4" valueTypeId="626cca17-ab69-46ac-ad97-6c9aca3c3b25"/>
+    <managerType typeId="cf59f055-bf3c-4b87-a4f3-ea864ef0be61" valueTypeId="a905cee1-11d5-484d-9d16-0d76144274b6"/>
+  </producedTypes>
+  <name>ВКМ_РасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с сотрудниками</value>
+  </synonym>
+  <comment>Начисленные и выплаченные суммы за период с задолженностью на начало и на конец периода.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_РасчетыССотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e751cca6-6d0b-4ff9-ab7b-8f80af2cfa1e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
