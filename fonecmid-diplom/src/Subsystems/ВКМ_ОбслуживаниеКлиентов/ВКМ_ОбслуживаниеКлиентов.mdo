@@ -12,4 +12,5 @@
   </picture>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</content>
 </mdclass:Subsystem>

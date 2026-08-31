@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6c5af80-21a7-4a23-8587-d4b0e27dc8f8">
+  <producedTypes>
+    <objectType typeId="5716a707-1ddd-4c61-9eea-d3755b060708" valueTypeId="89a5d873-625b-48d5-a882-ae519e3315f3"/>
+    <refType typeId="abf9c0c0-7e5f-4cb0-89f8-a17d783cd28e" valueTypeId="ed45c001-6ae1-4e63-ae8b-2bcbfaa24896"/>
+    <selectionType typeId="81578ee4-52eb-4917-b7b9-c61ba1e19efe" valueTypeId="f0d925a9-25e9-4883-8f71-ceb2c7a04ebe"/>
+    <listType typeId="733b45b0-72dc-4b63-92d9-d565cfb1f704" valueTypeId="22d4cc0b-eea5-4afb-898a-73fbab32f15c"/>
+    <managerType typeId="a60230fd-650f-4704-a052-9f6fad9bf958" valueTypeId="7f32b793-e440-424e-af6e-fd8266bc3700"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБотуДляОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту для отправки</value>
+  </synonym>
+  <comment>Очередь сообщений для телеграм-бота. Элементы удаляются регламентным заданием после успешной отправки.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>DontUse</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление телеграм-боту</value>
+  </objectPresentation>
+  <codeLength>0</codeLength>
+  <descriptionLength>0</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsCode</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b9e92d34-ff28-41b8-bba1-d8ce3c4e3814">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <comment>Текст, который будет отправлен в группу телеграм регламентным заданием.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
