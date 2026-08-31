@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b04edc72-573c-4841-b044-14f5ec0b5bcf">
+  <producedTypes>
+    <objectType typeId="3e56c602-ba20-4cad-889e-4dd80de1023e" valueTypeId="2be2daa7-5436-4add-86a1-8f657bfa2250"/>
+    <refType typeId="7f7d2a6d-1053-422e-ab69-77a7ad61d92e" valueTypeId="3f0161d6-4110-4c2e-b635-75f17e6c1ef7"/>
+    <selectionType typeId="71e6afde-1771-459e-9bf2-58829ccd540c" valueTypeId="2f0f9f57-9d39-49ff-9477-e5b75e055203"/>
+    <listType typeId="e7d9d1f6-50b8-4d2c-bacb-e0df6c76ad44" valueTypeId="cee28c5b-d285-4099-9562-6b037828eb54"/>
+    <managerType typeId="e32d2c4f-9e42-4a0f-860e-2e2fb9f87952" valueTypeId="17e8945d-d2e3-4b6f-8883-f56e32cf40fb"/>
+  </producedTypes>
+  <name>ВКМ_ДополнительныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные начисления</value>
+  </synonym>
+  <comment>Начисления без периода действия: процент специалиста от работ и разовая премия.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardAttribute.Description</inputByString>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <dependenceOnCalculationTypes>DontUse</dependenceOnCalculationTypes>
+  <predefined>
+    <items id="1537365d-ab41-455d-95c3-75eed90f2982">
+      <name>ПроцентОтВыполненныхРабот</name>
+      <description>Процент от выполненных работ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4ba27992-7f01-499d-80ac-0f5b2a142171">
+      <name>ФиксированнаяПремия</name>
+      <description>Фиксированная премия</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

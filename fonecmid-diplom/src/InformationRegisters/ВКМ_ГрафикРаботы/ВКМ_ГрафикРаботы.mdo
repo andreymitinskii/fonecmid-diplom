@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43669bb8-33fe-43af-8174-643a59fc66db">
+  <producedTypes>
+    <selectionType typeId="04fd93c9-c430-47bb-89b5-3b151f93777a" valueTypeId="02d7d8d7-dde3-4af3-ba02-08270000a3cc"/>
+    <listType typeId="7531191e-56f3-46ad-a134-572a680d908e" valueTypeId="8661a1c1-3a6c-45d4-b12e-f3b0c7ac288e"/>
+    <managerType typeId="fe3add15-f7e0-4682-981f-0aeb91f2612b" valueTypeId="610ca3f1-7ea6-4b7b-a955-e37b80f9259f"/>
+    <recordSetType typeId="fcc85be5-2637-41fa-8a89-1057a68179d5" valueTypeId="0c35ad8c-a278-4847-83cd-9031ac6f430e"/>
+    <recordKeyType typeId="3d128df7-ee07-45ff-b46f-d656c65a179a" valueTypeId="e99e59c3-58af-4bc8-8bfb-fe349e95a489"/>
+    <recordType typeId="8c25279f-99d5-4e39-8d5e-2b32e0195423" valueTypeId="f4534759-a18d-4cc4-b47e-9c640a14c7e0"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <comment>Производственный календарь: единица означает рабочий день. Используется как график регистров расчета.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>false</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>false</enableTotalsSliceLast>
+  <resources uuid="eca0e365-65c5-4df4-8896-caef6703e116">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <scale>0</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9b8e5afc-60be-4be9-b667-50e95921367b">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>false</useInTotals>
+  </dimensions>
+</mdclass:InformationRegister>
