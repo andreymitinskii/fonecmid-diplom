@@ -226,6 +226,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="7ec3b2dd-248a-4107-b0b9-8febfbebeb85">
+    <name>ПФ_MXL_ВКМ_АктОбОказанныхУслугах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказанных услугах</value>
+    </synonym>
+  </templates>
   <tabularSections uuid="49dbfd8f-3a71-4bc5-973a-d14dbe25ddf4">
     <producedTypes>
       <objectType typeId="27131814-01e1-4fa6-a340-10f24fd86597" valueTypeId="43e5b288-08f9-41c4-b92b-ba7e0de28945"/>
