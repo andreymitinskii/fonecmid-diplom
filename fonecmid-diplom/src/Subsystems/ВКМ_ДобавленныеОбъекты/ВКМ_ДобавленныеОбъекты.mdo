@@ -11,4 +11,5 @@
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>Enum.ВКМ_КатегорииСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
 </mdclass:Subsystem>
