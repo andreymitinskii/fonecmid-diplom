@@ -258,7 +258,7 @@
       <visible>false</visible>
       <enabled>true</enabled>
       <userVisible>
-        <common>true</common>
+        <common>false</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Ссылка</segments>
