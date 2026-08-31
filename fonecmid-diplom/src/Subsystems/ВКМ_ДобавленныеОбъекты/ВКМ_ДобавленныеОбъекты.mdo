@@ -41,4 +41,5 @@
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>CommonModule.ВКМ_РасчетЗарплаты</content>
+  <content>Role.ВКМ_РасчетУправленческойЗарплаты</content>
 </mdclass:Subsystem>
