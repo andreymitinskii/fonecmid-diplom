@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be1c539c-a95b-408d-8416-2ea01bb9c325">
+  <producedTypes>
+    <objectType typeId="ceead1a9-99a6-40f7-b7c8-3c34049fbafa" valueTypeId="d2946995-ad19-457c-9e52-02116fb6d06a"/>
+    <refType typeId="049b3bbe-0f0c-4c9a-b070-12a11ecf09e5" valueTypeId="c9b821ca-5192-4a47-9e7a-75d9798fb4b9"/>
+    <selectionType typeId="304946d3-e506-4b76-bf97-59bc26e07e19" valueTypeId="8aff85b7-d12f-4215-ae40-dfa5434669ef"/>
+    <listType typeId="6f71f8d2-2977-4ba5-b17e-5b9895b769a3" valueTypeId="094f4820-e27b-4095-8029-83b0d90149ef"/>
+    <managerType typeId="fd5ba434-eeb1-473a-acc4-7a5cb07f8cb6" valueTypeId="8e028512-72c0-456d-8d50-96e91bf5f45f"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <comment>Начисления с периодом действия: оклад и отпуск. Отпуск вытесняет оклад.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Description</inputByString>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <predefined>
+    <items id="37cf45df-c65d-4e65-a3a8-2d2d389e0a14">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
+    </items>
+    <items id="094130d4-5bd8-4eb7-ab04-6f1933a21253">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПроцентОтВыполненныхРабот</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

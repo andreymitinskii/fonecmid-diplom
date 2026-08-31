@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a753563-25fd-49b0-97df-dfa41d5be633">
+  <producedTypes>
+    <selectionType typeId="3a48abc4-a32c-441b-aa3f-9713aab8fc81" valueTypeId="754668a5-4d6c-45f9-a0e7-64ff9332432c"/>
+    <listType typeId="5b244a40-fa9b-495f-aff3-88261d51e48e" valueTypeId="89123cfb-5933-427b-b2b4-3b3dc0c63d36"/>
+    <managerType typeId="04c06812-0678-47b3-94fb-8122040aa10f" valueTypeId="00d3ee51-0298-4098-b525-ff1940cfdb2e"/>
+    <recordSetType typeId="7de3802c-5107-4ebb-ac9e-c2d1afc983c3" valueTypeId="85d96233-c3e6-471a-8fdf-0b4166bd955e"/>
+    <recordKeyType typeId="17a1de51-4727-41b4-8790-bc6a16a88860" valueTypeId="41398db8-66b5-4eb9-aa45-ce136cf3a84d"/>
+    <recordType typeId="d196be77-44e3-41d5-9752-bad1eb2be8c5" valueTypeId="e98ab06d-cff1-40f1-954a-99d3c9b59326"/>
+  </producedTypes>
+  <name>ВКМ_ДополнительныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные начисления</value>
+  </synonym>
+  <comment>Результаты расчета процента от работ и премий.</comment>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</chartOfCalculationTypes>
+  <resources uuid="4a0de2f3-b2ff-4c13-bd4d-cddb033a526b">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>false</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="06b3b8cc-65bc-43e9-a65e-387a442b57e8">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:CalculationRegister>

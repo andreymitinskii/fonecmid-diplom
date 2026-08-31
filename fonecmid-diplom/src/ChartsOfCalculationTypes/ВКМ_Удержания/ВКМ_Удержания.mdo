@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9598e6c2-3dd6-42db-aa28-bfff1ebd7d93">
+  <producedTypes>
+    <objectType typeId="607767da-b102-4a71-b876-951474010d23" valueTypeId="1c37fb69-f044-4590-b884-e7a2d4583b19"/>
+    <refType typeId="f23cb1e4-168e-4de4-86a4-ff33746d755f" valueTypeId="4414110f-52bf-48ae-bfdb-6f077e19a3d1"/>
+    <selectionType typeId="5722dac3-7e4c-4b88-877c-dcec31593577" valueTypeId="8a1c88ed-5746-476e-9c99-ff66273a80a2"/>
+    <listType typeId="2ba642a5-83ed-43ad-8ef5-53dd5bbf06ef" valueTypeId="4be62a18-d7c1-4ba2-8361-434eeb39d565"/>
+    <managerType typeId="7db1c0b1-6143-497b-b6fb-cd2953a1b040" valueTypeId="4cc55c1b-0503-43e9-9d59-2cafb7702d75"/>
+  </producedTypes>
+  <name>ВКМ_Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <comment>Удержания, рассчитываемые от начислений периода регистрации.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_Удержания.StandardAttribute.Description</inputByString>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <predefined>
+    <items id="3ff0d8cb-8a5e-49b3-9079-d907e29e5bb3">
+      <name>НДФЛ</name>
+      <description>НДФЛ</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПроцентОтВыполненныхРабот</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

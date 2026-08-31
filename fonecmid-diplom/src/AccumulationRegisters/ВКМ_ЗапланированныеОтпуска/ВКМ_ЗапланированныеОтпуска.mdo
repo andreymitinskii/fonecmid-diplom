@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04d7fa7c-8b5a-4f51-b9d4-5fad83fcf45a">
+  <producedTypes>
+    <selectionType typeId="b2b2e68a-e8d9-4225-8740-febc7deb3f7e" valueTypeId="47317068-bbeb-49fb-aec0-3f39141a07ae"/>
+    <listType typeId="de991713-534a-4370-90f8-9cba613b74c1" valueTypeId="a8f7f37d-e94c-47a7-91c7-81f958b92d8d"/>
+    <managerType typeId="a147704b-cb52-4cc3-81f3-838b61c8dd16" valueTypeId="b7e87aff-8d07-4516-813b-1e3640a7ff02"/>
+    <recordSetType typeId="d59de28f-dcbb-4279-a8fb-37456757f99f" valueTypeId="3b480200-016b-40d1-8df0-91f7501f0b40"/>
+    <recordKeyType typeId="87644f1f-99fc-4c16-b07f-4b9e28cd094c" valueTypeId="2b574ea1-5705-40b0-a836-0185db913089"/>
+    <recordType typeId="f47f72de-cdbd-44b8-81bb-0bb392490238" valueTypeId="d997bdf0-42d6-4ef0-8c11-ab83f30df48f"/>
+  </producedTypes>
+  <name>ВКМ_ЗапланированныеОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запланированные отпуска</value>
+  </synonym>
+  <comment>Плановые дни отпуска по графику. Нужен для отчета о расходе запланированных отпусков: отчеты строятся по регистрам, а не по документам.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <registerType>Turnovers</registerType>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="1e69099a-9b1d-4272-aea7-0ef612bfe601">
+    <name>ДнейОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней отпуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>0</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9fac8833-5234-40d8-9537-9512807eebad">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

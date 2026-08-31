@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14bcf21d-f352-4811-b7fe-2b7542b1cd84">
+  <producedTypes>
+    <selectionType typeId="807d7ddf-42dc-4a0d-8339-1be28a921798" valueTypeId="e2fa8efc-397b-44db-960a-19143278e0ac"/>
+    <listType typeId="3b676b2f-9852-4a99-9947-a4e3d9dc961b" valueTypeId="0acfe445-759e-466d-9b19-373f80d3f1b8"/>
+    <managerType typeId="26893f57-fb8d-4f01-89cb-65ebde470b02" valueTypeId="c00e2874-7a3c-4ffa-a6da-afb7f6d0ed02"/>
+    <recordSetType typeId="76f3e021-136d-4653-8e6a-5896537d78e6" valueTypeId="1401700b-9fa2-445a-b00f-dfa55cdb4de7"/>
+    <recordKeyType typeId="023a32cf-d8d1-4ea4-90d2-5647cf15b3bf" valueTypeId="501bd2d1-029f-4364-8a99-0f50f5b56eb1"/>
+    <recordType typeId="c83687c2-16d6-4dce-a4c3-bdce1696e09e" valueTypeId="d38dbccd-22ca-4416-8b36-ae6d3a34b748"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <comment>Результаты расчета оклада и отпуска.</comment>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <schedule>InformationRegister.ВКМ_ГрафикРаботы</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикРаботы.Resource.Значение</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикРаботы.Dimension.Дата</scheduleDate>
+  <resources uuid="cb68c55d-3013-4847-8103-ada63ce4869b">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>false</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b6b78972-4d24-4686-ac33-7177725d1388">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:CalculationRegister>
