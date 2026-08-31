@@ -7,4 +7,6 @@
   </synonym>
   <comment>Интеграция с телеграм-ботом: отправка сообщений и обработка очереди уведомлений.</comment>
   <server>true</server>
+  <externalConnection>false</externalConnection>
+  <clientOrdinaryApplication>false</clientOrdinaryApplication>
 </mdclass:CommonModule>

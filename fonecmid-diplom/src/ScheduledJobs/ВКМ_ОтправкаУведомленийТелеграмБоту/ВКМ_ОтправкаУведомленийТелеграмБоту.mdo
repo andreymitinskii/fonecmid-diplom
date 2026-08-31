@@ -6,7 +6,6 @@
     <value>Отправка уведомлений телеграм-боту</value>
   </synonym>
   <methodName>CommonModule.ВКМ_Телеграм.ОтправитьНакопленныеУведомления</methodName>
-  <description>Отправка накопленных уведомлений телеграм-боту</description>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>60</restartIntervalOnFailure>
