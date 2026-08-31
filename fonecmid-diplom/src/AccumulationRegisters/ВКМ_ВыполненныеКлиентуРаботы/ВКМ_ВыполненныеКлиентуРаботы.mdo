@@ -16,6 +16,7 @@
   <comment>Задолженность клиентов за выполненные работы. Обороты используются при автозаполнении реализации и в отчете по выставленным актам.</comment>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <registerType>Turnovers</registerType>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="7d6cde26-f580-4ad1-a808-b72ef64f5b4d">
     <name>КоличествоЧасов</name>
