@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c49c47b-3588-4824-a78a-d6e2f95edb24">
+  <name>ВКМ_РасчетУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет управленческой зарплаты</value>
+  </synonym>
+  <comment>Ведение сотрудников, условий оплаты, расчет и выплата зарплаты, график отпусков.</comment>
+</mdclass:Role>
