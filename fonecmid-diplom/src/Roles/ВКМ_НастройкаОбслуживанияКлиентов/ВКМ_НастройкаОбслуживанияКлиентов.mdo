@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17ed8b0f-c817-4382-b4e0-c259f63f35d3">
+  <name>ВКМ_НастройкаОбслуживанияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка обслуживания клиентов</value>
+  </synonym>
+  <comment>Заполнение констант подсистемы и ведение справочника сотрудников.</comment>
+</mdclass:Role>

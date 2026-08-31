@@ -21,4 +21,7 @@
   <content>ScheduledJob.ВКМ_ОтправкаУведомленийТелеграмБоту</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ВыставлениеАктов</content>
+  <content>Role.ВКМ_НастройкаОбслуживанияКлиентов</content>
 </mdclass:Subsystem>
