@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d0adac5-440f-459e-9cbc-cc5cf29bea82">
+  <name>ВКМ_ВыставлениеАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выставление актов</value>
+  </synonym>
+  <comment>Массовое создание актов и печать по абонентским договорам, для бухгалтера.</comment>
+</mdclass:Role>

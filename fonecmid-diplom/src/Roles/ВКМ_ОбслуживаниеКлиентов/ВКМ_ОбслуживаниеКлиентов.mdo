@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94808f9b-e46e-4aca-b19c-5603b4b42d3b">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <comment>Ввод и проведение документов обслуживания клиентов специалистами и менеджерами.</comment>
+</mdclass:Role>
