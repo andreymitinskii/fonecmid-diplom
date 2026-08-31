@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fc02c29-6287-4f7f-a576-2fec526baf52">
+  <producedTypes>
+    <objectType typeId="ef87af66-992c-4d97-b5f0-86777cf71338" valueTypeId="d9831920-3089-4da1-8bf9-d463831c0c54"/>
+    <managerType typeId="0ffdba41-3a1e-4c3a-9f9e-4ac364b5083b" valueTypeId="599c5d72-1912-4ff9-8053-6509488d1b11"/>
+  </producedTypes>
+  <name>ВКМ_АнализВыставленныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ выставленных актов</value>
+  </synonym>
+  <comment>Суммы, которые должны быть выставлены клиентам по данным обслуживания, и фактически выставленные суммы по номенклатуре работ специалиста.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="78c34d76-9fa8-478f-954f-c367589dc87d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

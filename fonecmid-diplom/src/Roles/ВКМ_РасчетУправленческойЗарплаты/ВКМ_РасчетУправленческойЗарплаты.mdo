@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c49c47b-3588-4824-a78a-d6e2f95edb24">
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="246d3532-46df-48a2-9a60-eaf6f6863413">
   <name>ВКМ_РасчетУправленческойЗарплаты</name>
   <synonym>
     <key>ru</key>

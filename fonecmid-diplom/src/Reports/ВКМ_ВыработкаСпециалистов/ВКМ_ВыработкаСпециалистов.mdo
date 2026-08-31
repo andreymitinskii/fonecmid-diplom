@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e19e68e1-25df-407c-866b-eb7b5b0304f9">
+  <producedTypes>
+    <objectType typeId="d701d9b1-24d9-4ca0-996c-d5879e99a9cc" valueTypeId="c1a9620f-596d-4224-91b4-2885203b82cc"/>
+    <managerType typeId="a1e728a0-6de6-4b96-a188-774f5c3144de" valueTypeId="58fbb602-9a65-46a5-9bca-4b42bedb19b3"/>
+  </producedTypes>
+  <name>ВКМ_ВыработкаСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка специалистов</value>
+  </synonym>
+  <comment>Часы и начисленные специалисту суммы за период по данным регистра выполненных работ.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f6af20cc-31ee-458b-a973-9e2bcb3ec674">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

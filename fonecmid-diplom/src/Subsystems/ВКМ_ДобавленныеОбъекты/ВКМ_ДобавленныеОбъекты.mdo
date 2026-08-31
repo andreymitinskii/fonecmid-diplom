@@ -42,4 +42,9 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>CommonModule.ВКМ_РасчетЗарплаты</content>
   <content>Role.ВКМ_РасчетУправленческойЗарплаты</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеРаботы</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>
