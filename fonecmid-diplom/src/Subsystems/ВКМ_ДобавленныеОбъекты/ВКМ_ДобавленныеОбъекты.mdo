@@ -8,4 +8,7 @@
   <comment>Служебная подсистема. Содержит все объекты, добавленные в конфигурацию в рамках доработки для компании «Ваш компьютерный мастер».</comment>
   <includeHelpInContents>false</includeHelpInContents>
   <includeInCommandInterface>false</includeInCommandInterface>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Enum.ВКМ_КатегорииСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>

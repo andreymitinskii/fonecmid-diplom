@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
