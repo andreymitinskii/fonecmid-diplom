@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a61977b5-c5fd-411e-9b06-387ca68bfddd">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5503111-d44c-4a75-bacb-df227bac3109">
   <producedTypes>
-    <objectType typeId="81821d8b-d57a-431d-aa34-91b1a9dc9c67" valueTypeId="2dcfe414-5c43-47be-85bf-d7f12c3e00b7"/>
-    <managerType typeId="5b3d47f5-1142-456e-a514-ec77db84ea2d" valueTypeId="1139a42f-296f-438d-b684-cc8c67cfe7a9"/>
+    <objectType typeId="5d170c8a-f54e-45d4-b196-4519c9ae4a7d" valueTypeId="4d348164-3daf-46f5-b1df-4edcebea4bdb"/>
+    <managerType typeId="fddc5797-df9b-45f8-a254-c1f3a8889af4" valueTypeId="1c5dbc30-134d-4372-aa86-5ed95dfd6d23"/>
   </producedTypes>
   <name>ВКМ_ВыработкаСпециалистов</name>
   <synonym>
@@ -12,7 +12,7 @@
   <comment>Часы и начисленные специалисту суммы за период по данным регистра выполненных работ.</comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="e96cab54-59e3-4135-b76c-98a9497ef2e0">
+  <templates uuid="e7665c2b-c74b-4f8d-a3de-e123fdc96db5">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

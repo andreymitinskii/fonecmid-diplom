@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6f83f8f-e256-4635-8006-a7fb7004400c">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4239b80c-e219-4977-a8a1-b81cfc9c6642">
   <producedTypes>
-    <objectType typeId="9a882c29-7319-412b-b24f-c57bbed5236e" valueTypeId="ef3169e6-e7cf-4991-b20a-ac062cafccc8"/>
-    <managerType typeId="0b6e02b6-5c97-44db-98f0-69ac1d25fa7d" valueTypeId="06d385e3-5a44-423b-9725-57afe8277736"/>
+    <objectType typeId="fe4ddcc4-ab34-4b61-9b83-f2cafc54f1b3" valueTypeId="cae07fb1-5c0d-4316-ae59-ef1fbbfbc37a"/>
+    <managerType typeId="76238d8d-071a-4ce7-81f8-820d2d09a688" valueTypeId="2a697859-38b7-45f3-b423-cd09099b6046"/>
   </producedTypes>
   <name>ВКМ_РасходЗапланированныхОтпусков</name>
   <synonym>
@@ -12,7 +12,7 @@
   <comment>Плановые и фактические дни отпуска сотрудников за выбранный период.</comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ВКМ_РасходЗапланированныхОтпусков.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <templates uuid="83aa9076-8549-4832-babd-b73347dff5cc">
+  <templates uuid="a8a12672-3771-42fb-be95-0a238e87a1c6">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
