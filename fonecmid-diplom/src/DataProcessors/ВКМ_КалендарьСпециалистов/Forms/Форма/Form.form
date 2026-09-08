@@ -86,7 +86,11 @@
   </handlers>
   <autoSaveDataInSettings>DontUse</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
-  <autoTitle>true</autoTitle>
+  <title>
+    <key>ru</key>
+    <value>Календарь специалистов</value>
+  </title>
+  <autoTitle>false</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
