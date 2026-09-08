@@ -38,6 +38,7 @@
     <type>PlannerField</type>
     <editMode>Enter</editMode>
     <extInfo xsi:type="form:PlannerFieldExtInfo">
+      <height>25</height>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
