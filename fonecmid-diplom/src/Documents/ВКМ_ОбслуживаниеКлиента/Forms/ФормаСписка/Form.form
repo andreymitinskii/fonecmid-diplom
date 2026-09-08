@@ -296,7 +296,6 @@
       <name>СписокКоманднаяПанель</name>
       <id>20</id>
       <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
       <event>OnActivateRow</event>

@@ -38,8 +38,10 @@
     <type>PlannerField</type>
     <editMode>Enter</editMode>
     <extInfo xsi:type="form:PlannerFieldExtInfo">
-      <verticalStretch>true</verticalStretch>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
+      <verticalStretch>true</verticalStretch>
     </extInfo>
   </items>
   <autoCommandBar>
