@@ -48,7 +48,7 @@
 	РегистрНакопления.ВКМ_ЗапланированныеОтпуска.Обороты(
 			&amp;НачалоПериода,
 			&amp;КонецПериода,
-			Регистратор,
+			,
 			) КАК План
 		ПОЛНОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
 			Отпуска.Сотрудник КАК Сотрудник,
@@ -83,8 +83,6 @@
 		</valueType>
 		<value xsi:type="v8:StandardPeriod">
 			<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
-			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 		</value>
 		<useRestriction>false</useRestriction>
 		<use>Always</use>
@@ -104,7 +102,7 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 		<use>Always</use>
 	</parameter>
@@ -123,8 +121,8 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаНачала</expression>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
 		<use>Always</use>
 	</parameter>
 	<settingsVariant>
@@ -146,11 +144,10 @@
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>true</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:type="v8:StandardPeriod">
 						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
-						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 					</dcscor:value>
 					<dcsset:userSettingID>15bd4e26-94ac-4068-90c4-ba7d5f09da47</dcsset:userSettingID>
 				</dcscor:item>
