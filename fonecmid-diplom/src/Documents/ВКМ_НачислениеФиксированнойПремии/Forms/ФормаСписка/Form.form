@@ -176,7 +176,6 @@
       <name>СписокКоманднаяПанель</name>
       <id>14</id>
       <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
       <name>СписокСтрокаПоиска</name>
