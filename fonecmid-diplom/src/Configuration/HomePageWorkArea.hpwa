@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
   <workingAreaTemplate>OneColumn</workingAreaTemplate>
-  <columns>
-    <items>
-      <form>DataProcessor.ВКМ_КалендарьСпециалистов.Form.Форма</form>
-      <visibility>
-        <common>true</common>
-      </visibility>
-    </items>
-  </columns>
 </hpwa:HomePageWorkArea>

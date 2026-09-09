@@ -76,6 +76,7 @@
   </attributes>
   <parameters>
     <name>АдресДанных</name>
+    <id>1</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -83,6 +84,7 @@
   </parameters>
   <parameters>
     <name>Год</name>
+    <id>2</id>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
