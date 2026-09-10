@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dbc0c60-49d1-4d53-8ff6-404a3e714428">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dbc0c60-49d1-4d53-8ff6-404a3e714428">
   <producedTypes>
     <objectType typeId="0d1e20fc-4228-40c4-9220-7f5dbc013127" valueTypeId="0579ea8c-7c3a-4036-9d3b-cbb3e9902bc4"/>
     <managerType typeId="34bb548f-a218-49ae-aa78-3aa669fb1bfb" valueTypeId="16d789b6-001d-4051-8faf-6b2d3294d4d7"/>
@@ -17,6 +17,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c1f4d92-3a5e-4b18-9a7c-2f6d5b8e1c40">
+    <name>ФормаВыбораДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора даты</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
