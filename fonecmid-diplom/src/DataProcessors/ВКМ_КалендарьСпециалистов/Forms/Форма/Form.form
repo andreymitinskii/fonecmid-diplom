@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Календарь специалистов</value>
+  </title>
   <items xsi:type="form:FormField">
     <name>ПолеПланировщика</name>
-    <id>1</id>
+    <id>6</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -12,17 +16,9 @@
       <segments>Планировщик</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <handlers>
-      <event>BeforeCreate</event>
-      <name>ПолеПланировщикаПередСозданием</name>
-    </handlers>
-    <handlers>
-      <event>Selection</event>
-      <name>ПолеПланировщикаВыбор</name>
-    </handlers>
     <extendedTooltip>
       <name>ПолеПланировщикаРасширеннаяПодсказка</name>
-      <id>2</id>
+      <id>8</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -32,14 +28,30 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПолеПланировщикаКонтекстноеМеню</name>
-      <id>3</id>
+      <id>7</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>PlannerField</type>
     <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:PlannerFieldExtInfo">
-      <height>25</height>
+      <handlers>
+        <event>BeforeCreate</event>
+        <name>ПолеПланировщикаПередСозданием</name>
+      </handlers>
+      <handlers>
+        <event>Selection</event>
+        <name>ПолеПланировщикаВыбор</name>
+      </handlers>
+      <handlers>
+        <event>OnCurrentRepresentationPeriodChange</event>
+        <name>ПолеПланировщикаПриСменеТекущегоПериодаОтображения</name>
+      </handlers>
+      <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
+      <height>25</height>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
@@ -73,24 +85,47 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаВыбратьДату</name>
+      <id>60</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаВыбратьДатуРасширеннаяПодсказка</name>
+        <id>61</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВыбратьДату</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
   </handlers>
-  <autoSaveDataInSettings>DontUse</autoSaveDataInSettings>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
-  <title>
-    <key>ru</key>
-    <value>Календарь специалистов</value>
-  </title>
-  <autoTitle>false</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -107,6 +142,25 @@
     <id>1</id>
     <valueType>
       <types>Planner</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:PlannerExtInfo"/>
+  </attributes>
+  <attributes>
+    <name>ОпорнаяДата</name>
+    <title>
+      <key>ru</key>
+      <value>Опорная дата</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -132,9 +186,25 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ВыбратьДату</name>
+    <title>
+      <key>ru</key>
+      <value>Выбрать дату</value>
+    </title>
+    <id>60</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыбратьДату</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DataProcessorFormExtInfo"/>
 </form:Form>
