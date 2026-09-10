@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d963824-4eed-48bd-974a-109ae7209264">
+  <name>ВКМ_ДеньгиОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DocumentJournal.Деньги</content>
+  <content>Document.ОплатаОтПокупателя</content>
+  <content>Document.ОплатаПоставщику</content>
+  <parentSubsystem>Subsystem.Деньги</parentSubsystem>
+</mdclass:Subsystem>

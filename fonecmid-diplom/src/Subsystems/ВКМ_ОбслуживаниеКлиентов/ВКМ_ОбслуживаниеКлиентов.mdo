@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="215d82b8-876f-45ed-a8ce-c90d94d206d0">
   <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
@@ -11,11 +11,11 @@
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
-  <content>Catalog.ВКМ_УведомленияТелеграмБотуДляОтправки</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеРаботы</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <subsystems>ВКМ_ОбслуживаниеОперации</subsystems>
+  <subsystems>ВКМ_ОбслуживаниеСправочники</subsystems>
 </mdclass:Subsystem>

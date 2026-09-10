@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4adeec31-d8f1-4d59-a06c-0b101a216c0f">
   <name>ВКМ_УправленческаяЗарплата</name>
   <synonym>
@@ -10,22 +10,15 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
-  <content>InformationRegister.ВКМ_ГрафикРаботы</content>
-  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
-  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
-  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
-  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>AccumulationRegister.ВКМ_ЗапланированныеОтпуска</content>
-  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
-  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
-  <content>Document.ВКМ_ВыплатаЗарплаты</content>
-  <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>CommonModule.ВКМ_РасчетЗарплаты</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <subsystems>ВКМ_ЗарплатаОперации</subsystems>
+  <subsystems>ВКМ_ЗарплатаСправочники</subsystems>
 </mdclass:Subsystem>
