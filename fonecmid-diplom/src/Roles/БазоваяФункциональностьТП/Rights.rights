@@ -2365,6 +2365,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.Деньги.Subsystem.ВКМ_ДеньгиОперации</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПоступлениеТоваровУслугПрисоединенныеФайлы.Attribute.ТекстХранилище</name>
 		<right>
 			<name>View</name>

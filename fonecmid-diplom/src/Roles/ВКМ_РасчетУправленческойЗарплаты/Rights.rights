@@ -11,6 +11,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ВКМ_УправленческаяЗарплата.Subsystem.ВКМ_ЗарплатаОперации</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_УправленческаяЗарплата.Subsystem.ВКМ_ЗарплатаСправочники</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВКМ_НачислениеЗаработнойПлаты</name>
 		<right>
 			<name>Read</name>
